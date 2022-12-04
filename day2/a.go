@@ -26,8 +26,6 @@ func A() {
         l, w, h := getDimensions(scanner.Text())
         totalScore += 2*l*w + 2*w*h + 2*h*l
         totalScore += minArea(l,w,h)
-        fmt.Println(totalScore)
-
     }
     
     fmt.Println(totalScore)
